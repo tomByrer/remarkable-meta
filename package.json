@@ -1,10 +1,10 @@
 {
   "name": "remarkable-meta",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Add YAML metadata to the remarkable pluggable markdown parser",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/tape test/*.js"
+    "test": "node_modules/.bin/tape test/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
     "metadata",
     "markdown",
     "parser",
-    "yaml"
+    "yaml",
+    "frontmatter"
   ],
   "author": "Eugene Ware <eugene@noblesamurai.com>",
   "license": "BSD-3-Clause",
@@ -25,10 +26,10 @@
     "url": "https://github.com/eugeneware/remarkable-meta/issues"
   },
   "dependencies": {
-    "js-yaml": "^3.2.3"
+    "js-yaml": "^3.8.4"
   },
   "devDependencies": {
-    "remarkable": "^1.4.1",
-    "tape": "~2.3.2"
+    "remarkable": "^1.7.1",
+    "tape": "~2.3.3"
   }
 }
